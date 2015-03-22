@@ -17,9 +17,7 @@ var getNumLines = function(filepath, callback) {
   var lines = countLines (contents);
   return lines;
 };
-```
 
-```javascript
 var fs = require('fs');
 var countLines = function(text) {
   return text.split('\n').length - 1;
